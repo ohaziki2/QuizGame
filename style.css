@@ -19,22 +19,23 @@ section {
 }
 #title {
     font-size: 50px;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'x12y16pxMaruMonica', sans-serif;
 }
 
 #question {
     z-index: 1;
     font-size: 50px;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'x12y16pxMaruMonica', sans-serif;
 }
 .btn {
     width: 50px;
     height: 50px;
     font-size: 50px;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'x12y16pxMaruMonica', sans-serif;
     margin: 20px;
-    color:rgb(94, 255, 0);
+    color:rgb(255, 255, 255);
     z-index: 1;/*描画を一番下に*/
+    border: 3px solid #84ff00;
 
 }
 body{
@@ -72,7 +73,7 @@ body{
   .css-fukidashi {
     padding: 0;
     margin: 0;
-    
+
   }
   .text {
     width: 200px;
@@ -80,16 +81,16 @@ body{
     bottom: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    padding: 10px;
-    border: 1px solid #84ff00;
+    padding: 15px;
+    border: 2px solid #84ff00;
+    font-family: x12y16pxMaruMonica;
   }
   .fukidashi {
     display: none;
     width: 200px;
     position: absolute;
-    top: 0;
-    left: 250px;
+    top: 30%;
+    left: 50%;
     padding: 16px;
     border-radius: 5px;
     background: #33cc99;
@@ -109,7 +110,9 @@ body{
     border-width: 10px;
     pointer-events: none;
     content: " ";
+    font-family: x12y16pxMaruMonica;
   }
   .text:hover + .fukidashi {
     display: block;
+    font-family: x12y16pxMaruMonica;
   }
