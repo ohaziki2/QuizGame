@@ -38,18 +38,9 @@ section {
     border: 3px solid #84ff00;
 
 }
-body{
-	animation: bgchange 0.5s ease infinite;/*変化の時間を変更したい場合は20sの部分を好きな時間に変更*/
+body {
+  background-image:url(space.png);
 }
-
-@keyframes bgchange{
-      0%   {background:#ff2a00;}/*変化させたい色*/
-      25%  {background:#ffff00;}/*変化させたい色*/
-      50%  {background:#0cf100;}/*変化させたい色*/
-      75%  {background:#00ffe1;}/*変化させたい色*/
-      90%  {background:#4400ff;}/*変化させたい色*/
-      100% {background:#ff00aa;}/*変化させたい色*/
- }
 
  html,body{
 	height: 100%;/*高さを100%にして描画エリアをとる*/
@@ -116,3 +107,29 @@ body{
     display: block;
     font-family: x12y16pxMaruMonica;
   }
+
+.title1 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: yellow;
+
+}
+.quizresult {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: yellow;
+
+}
+.title3 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: yellow;
+}
+.Bronze {
+  animation: rotate 0.5s infinite; 
+
+}
+

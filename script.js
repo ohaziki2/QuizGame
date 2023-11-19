@@ -5,20 +5,21 @@ let sum;
 let correctAnswer;
 
 const questions = [
-    { question: 'Question1', answer: 1 , hintcontent: 'bone' },
-    { question: 'Question2', answer: 1 , hintcontent: 'meat' },
-    { question: 'Question3', answer: 0 , hintcontent: 'salt' },
-    { question: 'Question1', answer: 1 , hintcontent: '1' },
-    { question: 'Question1', answer: 0 , hintcontent: '1' },
-    { question: 'Question1', answer: 0 , hintcontent: '1' },
-    { question: 'Question1', answer: 0 , hintcontent: '1' },
-    { question: 'Question1', answer: 0 , hintcontent: '1' },
-    { question: 'Question1', answer: 1 , hintcontent: '1' },
-    { question: 'Question1', answer: 1 , hintcontent: '1' },
-    { question: 'Question1', answer: 0 , hintcontent: '1' }
+    { question: 'Question1', answer: 1 , hintcontent: '答えは1' },
+    { question: 'Question2', answer: 2 , hintcontent: '答えは2' },
+    { question: 'Question3', answer: 3 , hintcontent: '答えは3' },
+    { question: 'Question1', answer: 4 , hintcontent: '答えは4' },
+    { question: 'Question1', answer: 0 , hintcontent: '答えは' },
+    { question: 'Question1', answer: 0 , hintcontent: '答えは' },
+    { question: 'Question1', answer: 0 , hintcontent: '答えは' },
+    { question: 'Question1', answer: 0 , hintcontent: '答えは' },
+    { question: 'Question1', answer: 1 , hintcontent: '答えは' },
+    { question: 'Question1', answer: 1 , hintcontent: '答えは' },
+    { question: 'Question1', answer: 0 , hintcontent: '答えは' }
 ];
 
 function writeQuestion() {
+    console.log(titleText)
     titleText.textContent = `第${sum + 1}問`;
     questionText.textContent = questions[sum].question;
     //hint[0].textContent = questions[sum].hintcontent;
@@ -36,7 +37,8 @@ function onAnswer(ans) {
     sum++;
 
     if (sum >= questions.length) {
-        alert(`${questions.length}問中${correctAnswer}問正解です`);
+        location.href='result_trash.html?boke=1'
+        document.getElementsByClassName('quizresult')[0].textContent = (`${questions.length}問中${correctAnswer}問正解です`)
         onStart();
     } else {
         writeQuestion();
