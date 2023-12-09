@@ -26,6 +26,7 @@ section {
     z-index: 1;
     font-size: 50px;
     font-family: 'x12y16pxMaruMonica', sans-serif;
+    color: paleturquoise;
 }
 .btn {
     width: 50px;
@@ -33,7 +34,7 @@ section {
     font-size: 50px;
     font-family: 'x12y16pxMaruMonica', sans-serif;
     margin: 20px;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 255, 42);
     z-index: 1;/*描画を一番下に*/
     border: 3px solid #84ff00;
 
@@ -84,12 +85,14 @@ body{
     padding: 15px;
     border: 2px solid #84ff00;
     font-family: x12y16pxMaruMonica;
+    color: rgb(55, 151, 0);
+    background-color: rgb(177, 177, 177);
   }
   .fukidashi {
     display: none;
     width: 200px;
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: 50%;
     padding: 16px;
     border-radius: 5px;
