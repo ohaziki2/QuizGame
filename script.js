@@ -37,7 +37,7 @@ function onAnswer(ans) {
     sum++;
 
     if (sum >= questions.length) {
-        location.href='result_trash.html?boke=1'
+        location.href='result_trash.html?correctAnswer=' + correctAnswer
         document.getElementsByClassName('quizresult')[0].textContent = (`${questions.length}問中${correctAnswer}問正解です`)
         onStart();
     } else {
