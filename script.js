@@ -5,12 +5,12 @@ let sum;
 let correctAnswer;
 
 const questions = [
-    { question: 'Question1', answer: 1 , hintcontent: '答えは1' },
-    { question: 'Question2', answer: 2 , hintcontent: '答えは2' },
-    { question: 'Question3', answer: 3 , hintcontent: '答えは3' },
-    { question: 'Question1', answer: 4 , hintcontent: '答えは4' },
-    { question: 'Question1', answer: 0 , hintcontent: '答えは' },
-    { question: 'Question1', answer: 0 , hintcontent: '答えは' },
+    { question: 'キリコのアビリティ1のスキル名は？', answer: 3 , hintcontent: '1,霧歩き|2,神変出没|3,神出鬼没|4,五里霧中' },
+    { question: 'シグマのアビィティ2のスキルCTは？', answer: 2 , hintcontent: '1,8秒|2,10秒|3,12秒|4,14秒' },
+    { question: 'リーパーのショットガンの名前は？', answer: 4 , hintcontent: '1,デス・ブルーム|2,デッドマンズ・ショットガン|3,R31ショットガン|4,ヘルファイアショットガン' },
+    { question: 'イリオスはどこの国にある設定？', answer: 1 , hintcontent: '1,ギリシャ|2,イスラエル|3,エジプト|4,カナダ' },
+    { question: 'ファラのアルティメットは秒間何ロケットが発射される？', answer: 2 , hintcontent: '1,25|2,30|3,50|4,200' },
+    { question: 'ゼニヤッタのアルティメットの効果時間は？', answer: 3 , hintcontent: '1,5|2,5.5|3,6|4,7' },
     { question: 'Question1', answer: 0 , hintcontent: '答えは' },
     { question: 'Question1', answer: 0 , hintcontent: '答えは' },
     { question: 'Question1', answer: 1 , hintcontent: '答えは' },
