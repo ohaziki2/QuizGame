@@ -38,9 +38,6 @@ section {
     border: 3px solid #84ff00;
 
 }
-body{
-	animation: bgchange 0.5s ease infinite;/*変化の時間を変更したい場合は20sの部分を好きな時間に変更*/
-}
 
 @keyframes bgchange{
       0%   {background:#ff2a00;}/*変化させたい色*/
@@ -56,7 +53,7 @@ body{
 }
 
 #particles-js{ 
-	position:fixed;/*描画固定*/
+	position: fixed;/*描画固定*/
 	z-index: auto;/*描画を一番下に*/
 	width: 100%;
 	height: 100%;
