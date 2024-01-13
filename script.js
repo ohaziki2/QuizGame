@@ -11,7 +11,7 @@ const questions = [
     { question: 'イリオスはどこの国にある設定？', answer: 1 , hintcontent: '1,ギリシャ|2,イスラエル|3,エジプト|4,カナダ' },
     { question: 'ファラのアルティメットは秒間何ロケットが発射される？', answer: 2 , hintcontent: '1,25|2,30|3,50|4,200' },
     { question: 'ゼニヤッタのアルティメットの効果時間は？', answer: 3 , hintcontent: '1,5|2,5.5|3,6|4,7' },
-    { question: 'Question1', answer: 0 , hintcontent: '答えは' },
+    { question: 'オリーサのアルティメットから受けるスロー効果は？', answer: 3 , hintcontent: '1,15%|2,20%|3,30%|4,45%' },
     { question: 'Question1', answer: 0 , hintcontent: '答えは' },
     { question: 'Question1', answer: 1 , hintcontent: '答えは' },
     { question: 'Question1', answer: 1 , hintcontent: '答えは' },
