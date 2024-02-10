@@ -125,3 +125,12 @@ body{
     display: block;
     font-family: x12y16pxMaruMonica;
   }
+
+  #more-info {
+    font-size: 35px;
+    font-family: x12y16pxMaruMonica;
+    color: rgb(0, 255, 0);
+  }
+  #more-info span{
+    color: rgb(168, 169, 173);
+  }
