@@ -5,15 +5,15 @@ let sum;
 let correctAnswer;
 
 const questions = [
-    { question: 'Question1', answer: 1 , hintcontent: '' , choise1: 'a', choise2: 'i', choise3: 'u', choise4: 'e'},
-    { question: 'Question2', answer: 2 , hintcontent: '' , choise1: '', choise2: '', choise3: '', choise4: ''},
-    { question: 'Question3', answer: 3 , hintcontent: '' , choise1: '', choise2: '', choise3: '', choise4: ''},
-    { question: 'Question4', answer: 4 , hintcontent: '' , choise1: '', choise2: '', choise3: '', choise4: ''},
-    { question: 'Question5', answer: 0 , hintcontent: '' , choise1: '', choise2: '', choise3: '', choise4: ''},
-    { question: 'Question6', answer: 0 , hintcontent: '' , choise1: '', choise2: '', choise3: '', choise4: ''},
-    { question: 'Question7', answer: 0 , hintcontent: '' , choise1: '', choise2: '', choise3: '', choise4: ''},
+    { question: 'スプリットの所在地(設定)は？', answer: 1 , hintcontent: 'ヨルが頻繁に訪れるらしい' , choise1: '日本', choise2: '韓国', choise3: 'シンガポール', choise4: 'アメリカ'},
+    { question: 'ソーヴァの出身地は？', answer: 2 , hintcontent: 'ソーヴァはロシア語でフクロウらしい' , choise1: '日本', choise2: 'ロシア', choise3: 'フィンランド', choise4: 'デンマーク'},
+    { question: 'フェイドは何を操る？', answer: 3 , hintcontent: 'アルティメットボイスを思い出そう' , choise1: '闇', choise2: '影', choise3: '悪夢', choise4: '墨'},
+    { question: 'ブリーチの義手の製作者は？', answer: 4 , hintcontent: '彼のスキルに注目' , choise1: 'キルジョイ', choise2: 'ブリムストーン', choise3: 'チェンバー', choise4: 'レイズ'},
+    { question: 'Kay/oのアルティメット名は？', answer: 3 , hintcontent: '広範囲のシステムを無効化..' , choise1: 'シャットダウン', choise2: 'EMP', choise3: 'ヌルコマンド', choise4: 'サプレッション'},
+    { question: 'チェンバーの出身地は？', answer: 2 , hintcontent: 'ピック画面に表示される' , choise1: 'イタリア', choise2: 'フランス', choise3: 'オランダ', choise4: 'ベルギー'},
+    { question: 'ゲッコーの青色のクリーチャーの名前は？', answer: 1 , hintcontent: 'スキル名が答え' , choise1: 'ディジー', choise2: 'デジー', choise3: 'ドゥジー', choise4: 'ディニー'},
     { question: 'Question8', answer: 0 , hintcontent: '' , choise1: '', choise2: '', choise3: '', choise4: ''},
-    { question: 'Question9', answer: 1 , hintcontent: '' , choise1: '', choise2: '', choise3: '', choise4: ''},
+    { question: 'ブリーチの義手', answer: 3 , hintcontent: 'Kingdom Area ' , choise1: '', choise2: '', choise3: '', choise4: ''},
     { question: 'Question1', answer: 1 , hintcontent: '' , choise1: '', choise2: '', choise3: '', choise4: ''},
 ] 
 //questionには問題、answerには答えの番号、hintcontentはヒントを書いて
